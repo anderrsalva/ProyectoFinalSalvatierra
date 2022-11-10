@@ -12,7 +12,7 @@ function alertaFinal(e) {
     timer: 4500
   })
     .then(function () {
-      window.location.href = "../index.html";
+      window.location.href = "./index.html";
       localStorage.clear();
     })
 }
